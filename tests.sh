@@ -40,5 +40,5 @@ function install_gems {
 }
 
 run "install_gems"
-
+rm -f $CASHER_DIR/mtime.yml
 echo done
