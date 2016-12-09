@@ -1,4 +1,5 @@
 cache:
+  edge: production-2016-05-24
   bundler: true
   debug: true
   directories:
