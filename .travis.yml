@@ -1,0 +1,8 @@
+cache:
+  bundler: true
+  debug: true
+sudo: false
+dist: precise
+script:
+  - "bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}"
+  - "echo hi"
