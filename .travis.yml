@@ -1,6 +1,8 @@
 cache:
   bundler: true
   debug: true
+  directories:
+    - node_modules
 install: true
 sudo: false
 dist: precise
