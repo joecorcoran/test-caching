@@ -7,3 +7,5 @@ dist: precise
 script:
   - "bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}"
   - "echo hi"
+  - "ls -la $CASHER_DIR"
+  - "rm -f $CASHER_DIR/mtime.yml"
