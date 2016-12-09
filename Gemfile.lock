@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    multi_json (1.12.1)
+    pannier (0.6.0)
+      multi_json (~> 1.7)
+      rack (~> 1.5)
+      slop (~> 3.4)
+    rack (1.6.5)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pannier
+
+BUNDLED WITH
+   1.13.6
