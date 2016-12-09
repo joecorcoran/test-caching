@@ -1,6 +1,7 @@
 cache:
   bundler: true
   debug: true
+install: true
 sudo: false
 dist: precise
 script:
