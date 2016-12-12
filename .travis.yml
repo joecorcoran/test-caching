@@ -1,5 +1,5 @@
 cache:
-  branch: production-2016-05-24
+  branch: touch-cache
   bundler: true
   debug: true
   directories:
